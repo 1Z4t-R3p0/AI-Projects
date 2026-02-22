@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+chromadb
+sentence-transformers
+langchain
+langchain-community
+apscheduler
+python-dotenv
+requests
+tmdbv3api
+numpy
+openai
+duckduckgo-search
+redis
