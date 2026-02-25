@@ -57,3 +57,4 @@ curl -fsSL https://raw.githubusercontent.com/1Z4t-R3p0/AI-ChatBot/main/wsl-setup
 
 ---
 *Created by [1Z4t](https://github.com/1Z4t-R3p0)*
+# AI-Projects

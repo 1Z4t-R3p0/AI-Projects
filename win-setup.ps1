@@ -2,8 +2,8 @@
 #  AI-ChatBot Deployment (Windows)
 # ====================================
 
-$REPO_URL = "https://github.com/1Z4t-R3p0/AI-ChatBot.git"
-$PROJECT_DIR = "$HOME\AI-ChatBot"
+$REPO_URL = "https://github.com/1Z4t-R3p0/AI-Projects.git"
+$PROJECT_DIR = "$HOME\AI-Projects"
 
 Write-Host "====================================" -ForegroundColor Cyan
 Write-Host "   AI-ChatBot Setup & Deployment" -ForegroundColor Cyan

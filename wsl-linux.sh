@@ -5,8 +5,8 @@ set -e
 #   AI-ChatBot Deployment (WSL/Linux)
 # ====================================
 
-REPO_URL="https://github.com/1Z4t-R3p0/AI-ChatBot.git"
-PROJECT_DIR="$HOME/AI-ChatBot"
+REPO_URL="https://github.com/1Z4t-R3p0/AI-Projects.git"
+PROJECT_DIR="$HOME/AI-Projects"
 
 echo "===================================="
 echo "   AI-ChatBot Setup & Deployment"
@@ -37,11 +37,11 @@ fi
 # 3. Clone or Update Project
 if [ ! -d "$PROJECT_DIR" ]; then
     echo "Cloning project repository..."
-    git clone "$REPO_URL" "$PROJECT_DIR"
+    git clone "$REPO_URL" "$PROJECT_DIR" || echo "Warning: Clone unreachable. Using local files if available."
 else
     echo "Project exists at $PROJECT_DIR. Pulling latest changes..."
     cd "$PROJECT_DIR" || exit
-    git pull
+    git pull || echo "Warning: Pull unreachable. Using local files."
 fi
 
 
