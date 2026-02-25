@@ -61,7 +61,7 @@ docker compose up -d --build
 Write-Host ""
 Write-Host "====================================" -ForegroundColor Green
 Write-Host " Deployment Complete!" -ForegroundColor Green
-Write-Host " Access Frontend at: http://localhost:8080" -ForegroundColor Green
+Write-Host " Access Frontend at: http://localhost:8082" -ForegroundColor Green
 Write-Host " Access API at: http://localhost:8001" -ForegroundColor Green
 Write-Host " Redis Analytics running on port 6380" -ForegroundColor Green
 Write-Host "====================================" -ForegroundColor Green

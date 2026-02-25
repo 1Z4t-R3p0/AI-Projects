@@ -61,7 +61,7 @@ sudo docker compose up -d --build || sudo docker-compose up -d --build
 echo ""
 echo "===================================="
 echo " Deployment Complete!"
-echo " Access Frontend at: http://localhost:8080"
+echo " Access Frontend at: http://localhost:8082"
 echo " Access API at:      http://localhost:8001"
 echo " Redis Analytics at port 6380"
 echo "===================================="
